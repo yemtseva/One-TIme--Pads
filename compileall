@@ -1,0 +1,6 @@
+#!/bin/bash
+gcc -o enc_server enc_server.c --std=gnu99
+gcc -o enc_client enc_client.c --std=gnu99
+gcc -o dec_server dec_server.c --std=gnu99
+gcc -o dec_client dec_client.c --std=gnu99
+gcc -o keygen keygen.c --std=gnu99
